@@ -1,0 +1,39 @@
+body
+{
+  background-color : red;
+  text-align: center;
+}
+#logo
+{
+  border-radius: 50%;
+  border: 8px solid black;
+  position: relative;
+  right: -16px;
+  top: 70px;
+
+}
+#nav
+{
+    background-color: #303030;
+    width: 1500px;
+    height: 100px;
+}
+a:link
+{
+font-family:Comic Sans MS;
+font-size: 28px;
+color: red;
+padding: 60px;
+}
+a:hover
+{
+font-family:Comic Sans MS;
+font-size: 28px;
+color: red;
+}
+a:visited
+{
+font-family:Comic Sans MS;
+font-size: 28px;
+color: red;
+}
