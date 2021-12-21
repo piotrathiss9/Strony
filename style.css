@@ -33,7 +33,12 @@ color: red;
 }
 a:visited
 {
-font-family:Comic Sans MS;
+font-family: Comic Sans MS;
 font-size: 28px;
 color: red;
 }
+.input
+{
+height: 35px;
+}
+
