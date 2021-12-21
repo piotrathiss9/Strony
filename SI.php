@@ -10,7 +10,7 @@
 <body>
 <form action="Zaloguj.php" method="post">
  Email: <input type="text" name="Email"></input><br/>
- Hasło: <input type="text" name="Haslo"></input><br><br>
+ Hasło: <input type="password" name="Haslo"></input><br><br>
  <input type="submit" value="Zaloguj się"/>
 
 </form>
