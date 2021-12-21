@@ -5,6 +5,7 @@
 </head>
 </html>
 <?php
+    require_once "connect.php";
    $login = $_POST['Email'];
    $pok = $_POST['Haslo'];
 
