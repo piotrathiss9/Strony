@@ -19,32 +19,42 @@
     <tr>
       <td>
         <label>
+          Wpisz Nazwisko
+        </label></td>
+      <td><input type="text" name="last_name"></td>
+    </tr>
+    <tr>
+      <td>
+        <label id="nick">
           Wpisz Nickname
         </label></td>
       <td><input type="text" name="nick_name"></td>
-
     <tr>
       <td>
         <label>
           Wpisz E-mail
         </label></td>
       <td><input type="text" name="email"></td>
-    </tr>
 
+
+    </tr>
     <tr>
       <td>
         <label>
           Wpisz Hasło
         </label></td>
       <td><input type="text" name="password"></td>
-
     <tr>
       <td>
         <label>
           Wyślij na serwer
         </label></td>
       <td><input algin="center" type="submit" name="save" value="Submit"></td>
+
+
     </tr>
+
+
     </tr>
   </table>
 </form>
@@ -68,10 +78,9 @@ if (isset($_POST['save']))
    $email = $_POST['email'];
    $pasw = $_POST['password'];
    $nik = $_POST['nick_name']
+   
 
-
-   $sql_query = "INSERT INTO users (name,email,pasw,nik)";
-}
+   $sql_query = "INSERT INTO users (name,email,pasw)";
    if (mysqli_query($cann, $sql_query))
    {
     echo "Udalo sie zaladowac dane !"
