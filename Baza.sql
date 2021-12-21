@@ -14,6 +14,6 @@ INSERT INTO Users
  VALUES
  ("Adam",
  "adam@poczta.com",
- "Haslo123";
+ "Haslo123",
  "Adusz",
- "Wiercicki")
+ "Wiercicki");

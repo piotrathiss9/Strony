@@ -12,13 +12,16 @@
 
     if($polonczenie->connect_errno!=0)
     {
-      echo "Error".$polonczenie->connect_errno."Opis: ".$polonczenie->connect_error;
+      echo "Error".$polonczenie->connect_errno;
     }
     else
     {
        $login = $_POST['Email'];
        $pok = $_POST['Haslo'];
        echo "It works";
+
+       $sql = "SELECT*FROM Users WHERE user='$login' AND pass='$haslo'";
+
        $polonczenie->close();
     }
 
