@@ -9,8 +9,8 @@
 </head>
 <body>
 <form>
- Email: <br/> <input type="text" name="Email"></input>
- Hasło:
+ Email: <input type="text" name="Email"></input><br/>
+ Hasło: <input type="text" name="Haslo"></input>
 
 </form>
 </body>
