@@ -1,0 +1,4 @@
+CREATE TABLE Users(
+name TEXT NOT NULL,
+email TEXT NOT NULL,
+pasw TEXT NOT NULL);
