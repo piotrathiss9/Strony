@@ -3,7 +3,8 @@ name TEXT NOT NULL,
 email TEXT NOT NULL,
 pasw TEXT NOT NULL,
 nick TEXT NOT NULL,
-nazwisko TEXT NOT NULL);
+nazwisko TEXT NOT NULL,
+eqw TEXT NULL);
 
 INSERT INTO Users
 (name,
@@ -12,8 +13,13 @@ INSERT INTO Users
  nick,
  nazwisko)
  VALUES
- ("Adam",
- "adam@poczta.com",
- "Haslo123",
- "Adusz",
- "Wiercicki");
+ ("Kilian",
+ "guwno@masz.malego",
+ "Fiut123",
+ "Admin",
+ "Grudziński"),
+ ("Piotr",
+ "ppicek14a@gmail.com",
+ "LubieDJ123",
+ "Admin",
+ "Picek");
