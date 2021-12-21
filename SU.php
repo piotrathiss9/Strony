@@ -43,7 +43,7 @@
         <label>
           Wpisz Hasło
         </label></td>
-      <td><input type="text" name="password"></td>
+      <td><input type="password" name="password"></td>
     <tr>
       <td>
         <label>
@@ -60,34 +60,4 @@
 </form>
 </body>
 </html>
-<?php
-$Serwername="localhost";
-$username="root";
-$password="";
-$database_name="bloodsql";
 
-$cann=mysqli_connect($Serwername, $username, $password, $database_name);
-
-if (!$cann)
-{
-    die("Connection Failed:"  .mysqli_connect_error());
-}
-if (isset($_POST['save']))
-{
-   $name = $_POST['firt_name'];
-   $email = $_POST['email'];
-   $pasw = $_POST['password'];
-   $nik = $_POST['nick_name']
-   
-
-   $sql_query = "INSERT INTO users (name,email,pasw)";
-   if (mysqli_query($cann, $sql_query))
-   {
-    echo "Udalo sie zaladowac dane !"
-   }
-   else
-   {
-    echo "Error: " .$sql . "" .mysql_query($cann)
-   }
-   mysqli_close($cann)
-}
