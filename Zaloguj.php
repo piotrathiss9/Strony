@@ -20,7 +20,13 @@
        $pok = $_POST['Haslo'];
        echo "It works";
 
-       $sql = "SELECT*FROM Users WHERE user='$login' AND pass='$haslo'";
+       $sql = "SELECT*FROM Users WHERE Email='$login' AND pasw='$haslo'";
+
+       if ($rezultat = @$polonczenie->query($sql))
+       {
+
+
+       }
 
        $polonczenie->close();
     }

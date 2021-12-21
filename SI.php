@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="icon" href="ZNAKfirmy.png" />
-    <title>Blood Games-sign up</title>
+    <title>Blood Games-sign in</title>
     <link rel="stylesheet" href="style.css" />
 
 </head>
