@@ -23,7 +23,5 @@
     }
 
 
-   echo $login."<br />";
-   echo $pok;
 
 ?>
