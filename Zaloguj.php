@@ -18,9 +18,9 @@
     {
        $login = $_POST['Email'];
        $pok = $_POST['Haslo'];
-       echo "It works";
+       
 
-       $sql = "SELECT*FROM Users WHERE Email='$login' AND pasw='$pok'";
+       $sql = "SELECT*FROM Users WHERE email='$login' AND pasw='$pok'";
 
        if ($rezultat = @$polonczenie->query($sql))
        {
@@ -29,11 +29,12 @@
          if($ilu_userow > 0)
          {
             $wiersz = $rezultat->fetch_assoc();
-            $EM = $wiersz['Email'];
+            $EM = $wiersz['email'];
             $Password = $wiersz['pasw'];
+            $name = $wiersz['name'];
 
             $rezultat->close();
-            echo $Email;
+            echo $name;
 
          }else
          {
