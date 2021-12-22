@@ -1,3 +1,7 @@
+<?php
+
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -14,5 +18,11 @@
  <input type="submit" value="Zaloguj się"/>
 
 </form>
+<?php
+if(isset($_SESSION['error']))
+{
+echo $_SESSION['error'];
+}
+?>
 </body>
 </html>

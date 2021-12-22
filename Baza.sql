@@ -4,22 +4,33 @@ email TEXT NOT NULL,
 pasw TEXT NOT NULL,
 nick TEXT NOT NULL,
 nazwisko TEXT NOT NULL,
-eqw TEXT NULL);
+eqw TEXT NOT NULL);
 
 INSERT INTO Users
 (name,
  email,
  pasw,
  nick,
- nazwisko)
+ nazwisko,
+ eqw)
  VALUES
  ("Kilian",
  "guwno@masz.malego",
  "Fiut123",
  "Admin",
- "Grudziński"),
+ "Grudziński",
+ "ADMIN"),
+
  ("Piotr",
  "ppicek14a@gmail.com",
  "LubieDJ123",
  "Admin",
- "Picek");
+ "Picek",
+ "ADMIN"),
+
+  ("Filip",
+  "filip@gmail.com",
+  "Filip123",
+  "Admin",
+  "Sienicki",
+  "ADMIN");

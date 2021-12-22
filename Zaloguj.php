@@ -6,6 +6,7 @@
 </html>
 
 <?php
+    session_start();
    require_once "connect.php";
 
    $polonczenie = @new mysqli($host,$db_user,$db_pass,$db_name);
@@ -18,7 +19,7 @@
     {
        $login = $_POST['Email'];
        $pok = $_POST['Haslo'];
-       
+
 
        $sql = "SELECT*FROM Users WHERE email='$login' AND pasw='$pok'";
 
@@ -32,13 +33,15 @@
             $EM = $wiersz['email'];
             $Password = $wiersz['pasw'];
             $name = $wiersz['name'];
-
+            $_SESSION['name'] = $wiersz['name'];
             $rezultat->close();
-            echo $name;
+            header('Location: glowna.php');
 
          }else
          {
 
+            $_SESSION['error'] = '<span style="color:red">Nieprawidłowy login lub hasło! </span>'
+            header('Location: SI.php')
          }
 
        }
