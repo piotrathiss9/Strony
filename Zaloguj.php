@@ -37,11 +37,12 @@
             $rezultat->close();
             header('Location: glowna.php');
 
-         }else
+         }
+         else
          {
 
-            $_SESSION['error'] = '<span style="color:red">Nieprawidłowy login lub hasło! </span>'
-            header('Location: SI.php')
+            $_SESSION['error'] = '<span style="color:red">Nieprawidłowy login lub hasło! </span>';
+            header('Location: SI.php');
          }
 
        }
