@@ -6,12 +6,7 @@
 
 <body>
 
-<?php
-session_start();
 
-echo "<p>Witaj ".$_SESSION['name']." !";
-unset($_SESSION['error']);
-?>
 <div id="container">
 <div id="nav">
     <br />
@@ -24,6 +19,14 @@ unset($_SESSION['error']);
 </div>
 <img id="logo" src="ZNAKfirmy.png"/>
 </div>
+<br><br><br><br><br><br>
+<?php
+session_start();
+
+echo "Witaj ".$_SESSION['name']." !";
+unset($_SESSION['error']);
+?>
+
 </body>
 
 </html>
