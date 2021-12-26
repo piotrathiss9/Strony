@@ -2,6 +2,7 @@
 <head>
 <link rel="icon" href="ZNAKfirmy.png" />
 <link rel="stylesheet" href="style.css" />
+<title>Blood Web</title>
 </head>
 
 <body>
@@ -16,6 +17,7 @@
     <a href="es.html">EASY WEB</a>
 
 
+
 </div>
 <img id="logo" src="ZNAKfirmy.png"/>
 </div>
@@ -23,7 +25,7 @@
 <?php
 session_start();
 
-echo "Witaj ".$_SESSION['name']." !";
+echo "<span size: 50px>Witaj </span>".$_SESSION['name']." !";
 unset($_SESSION['error']);
 ?>
 
