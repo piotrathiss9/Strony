@@ -16,6 +16,7 @@
     <a href="dod.html">DODATKI</a>
     <a href="es.html">EASY WEB</a>
     <a href="index.html">Wyloguj się</a>
+    <a href="ustawienia.html">Profil</a>
 
 
 
