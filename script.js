@@ -1,1 +1,4 @@
-console.log('Działa');
+window.addEventListener('load', function()
+{
+
+});
