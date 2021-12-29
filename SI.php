@@ -16,8 +16,8 @@ session_start();
  Email: <input type="text" name="Email"></input><br/>
  Hasło: <input type="password" name="Haslo"></input><br><br>
  <input type="submit" value="Zaloguj się"/>
- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
- <a href="index.html"><img src="ZNAKfirmy.png" /></a>
+ <br><br><br><br><br><br><br><br><br>
+ <a href="index.html"><img src="ZNAKfirmy.png" id="logo"/></a>
 
 </form>
 <?php
