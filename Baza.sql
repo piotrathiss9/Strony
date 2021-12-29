@@ -15,8 +15,8 @@ INSERT INTO Users
  eqw)
  VALUES
  ("Kilian",
- "guwno@masz.malego",
- "Fiut123",
+ "K.gru@gmail.com",
+ "Kilian123",
  "Admin",
  "Grudziński",
  "ADMIN"),
