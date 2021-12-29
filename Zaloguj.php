@@ -41,7 +41,7 @@
          else
          {
 
-            $_SESSION['error'] = '<span style="color:green ;font-size:28px">Nieprawidłowy login lub hasło! </span>';
+            $_SESSION['error'] = '<span style="color:red" size: 170px">Nieprawidłowy login lub hasło!</span>';
             header('Location: SI.php');
          }
 
