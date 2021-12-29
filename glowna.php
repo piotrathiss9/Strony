@@ -27,10 +27,11 @@
 <?php
 session_start();
 
-echo "<span size: 50px>Witaj </span>".$_SESSION['name']." !";
+
 unset($_SESSION['error']);
 ?>
 
+<h1><a href="sklep.php"><marquee behavior="alternate">Kup Bcoin</marquee></a><h1>
 </body>
 
 </html>
