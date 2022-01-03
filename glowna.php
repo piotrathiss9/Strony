@@ -27,7 +27,7 @@
 <?php
 session_start();
 
-
+echo "Witaj ".$_SESSION['name'];
 unset($_SESSION['error']);
 ?>
 
