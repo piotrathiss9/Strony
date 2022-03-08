@@ -2,7 +2,7 @@
 <head>
 <link rel="icon" href="ZNAKfirmy.png" />
 <link rel="stylesheet" href="style.css" />
-<title>Blood Web</title>
+<title>Lost Games</title>
 </head>
 
 <body>

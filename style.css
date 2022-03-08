@@ -30,6 +30,7 @@ body
   position: relative;
   right: -16px;
   top: 70px;
+<<<<<<< HEAD
   height: 40%;
   width: 40%;
 }
@@ -39,6 +40,16 @@ body
     width: 1500px;
     height: 100px;
 }
+=======
+  height: 30%;
+  width: 30%;
+}
+#nav
+{
+    background-color: #303030;
+    width: 100%;
+    height: 12%;
+>>>>>>> b12e11bac043cd0270f2bf3f13d26da98730799b
 a:link
 {
 font-family:Comic Sans MS;
