@@ -23,7 +23,7 @@ INSERT INTO Users
 
  ("Piotr",
  "ppicek14a@gmail.com",
- "LubieDJ123",
+ "Piotr123",
  "Admin",
  "Picek",
  "ADMIN"),
