@@ -1,2 +1,2 @@
 # Strony
- Xd moje repo więc se idź
+ XD moje repo więc se idź

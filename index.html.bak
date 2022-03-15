@@ -5,12 +5,10 @@
     <link rel="icon" href="ZNAKfirmy.png" />
     <title>Blood Games</title>
     <link rel="stylesheet" href="style.css" />
-    
+    <script src="scripy.js">
+	</script>
 </head>
 <body>
-<script>
-alert("XDDDDDD");
-</script>
 <div id="container">
 <div id="nav">
     <br />
@@ -24,7 +22,5 @@ alert("XDDDDDD");
 </div>
 <img id="logo" src="ZNAKfirmy.png"/>
 </div>
-
-
 </body>
 </html>
