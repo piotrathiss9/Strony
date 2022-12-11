@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Zegarek</title>
+<script type = "text/javascript">
+function licz()
+{
+var dzisiaj = new Date();
+var dzien = dzisiaj.getDate();
+if(dzien<10)dzien="0"+dzien;
+var miesiac = dzisiaj.getMonth()+1;
+if(miesiac<10)miesiac="0"+miesiac;
+var rok = dzisiaj.getFullYear();
+
+var godzina = dzisiaj.getHours();
+if(godzina<10)godzina="0"+godzina;
+var minuta = dzisiaj.getMinutes();			
+if(minuta<10)minuta="0"+minuta;
+var sekunda = dzisiaj.getSeconds();
+if(sekunda<10)sekunda="0"+sekunda;
+document.getElementById("zegar").innerHTML = dzien+"/"+miesiac+"/"+rok+":::|:::"+godzina+":"+minuta+":"+sekunda;
+setTimeout("licz()",1000);
+}
+
+</script>
+</head>
+<body onload="licz();">
+<style>
+.kol{color: #2D2469; font-size: 70px; text-align: center; font-style: italic;
+}
+{
+padding: 20px;
+margin-left:200px;
+margin-right: 200px;
+background-image: linear-gradient(to right, rgba(7,130,7,0.1), rgba(111,0,110,0.2));}
+}</style>
+<span class="kol"><div id="zegar"></div></span>
+<!--<script type="text/javascript">
+document.getElementById("zegar").innerHTML = dzien+"/"+miesiac+"/"+rok+"|"+godzina+":"+minuta+":"+sekunda;
+</script>-->
+</body>
+</html>
